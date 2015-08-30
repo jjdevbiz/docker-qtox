@@ -2,6 +2,11 @@
 
 FROM debian:stable
 
+# Set default locale for the environment
+ENV LC_ALL C.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
+
 # make sure the package repository is up to date
 # and blindly upgrade all packages
 RUN apt-get update -qq
