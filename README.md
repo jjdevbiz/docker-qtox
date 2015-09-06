@@ -1,7 +1,7 @@
 docker-qtox
 ==============
 
-Because why run a shady community project like tox on your local system? Throw it in a container where you don't care if it behaves or not.
+Qtox in a container
 
 # Build from Dockerfile #
 
